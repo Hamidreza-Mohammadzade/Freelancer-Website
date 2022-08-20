@@ -1,0 +1,315 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100%;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    position: fixed;
+    /* position: relative; */
+    margin: 0;
+    width: 100%;
+    height: 80px;
+    top: 0;
+    left: 0;
+
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: rgb(7, 64, 90);
+    color: white;
+}
+
+.name-site{
+    width: 200px;
+    display: flex;
+    margin-left: 90px;
+
+    font-size: 25px;
+}
+
+.link-header{
+    width: 30%;
+    display: flex;
+    column-gap: 15px;
+    justify-content: end;
+    color: white;
+    margin-right: 90px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.main-head{
+    position: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    top: 80px;
+    left: 0;
+    width: 100%;
+    height: 700px;
+    background-color: rgb(12, 161, 129);
+    color: white;
+}
+
+.avatar{
+    width: 240px;
+}
+
+.main-head-h{
+    font-size: 50px;
+    margin-bottom: 15px;
+    font-family: Montserrat;
+}
+
+.main-head-p{
+    font-size: 25px;
+    font-family: EduSA;;
+}
+
+.star-main{
+    font-size: 30px;
+}
+
+/* ------------------------------------------------------------------------------ */
+
+.main-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 120px;
+}
+
+.image-porto{
+    display: inline-flex;
+    justify-content: center;
+    
+    flex-wrap: wrap;
+    row-gap: 40px;
+    column-gap: 18px;
+    
+    width: 100%;
+    height: auto;
+}
+
+.img-porto-size{
+    display: inline-flex;
+    width: 30%;
+
+    border-radius: 10px;
+    transition: transform 250ms;
+}
+
+.img-porto-size:hover{
+    box-shadow: 0 0 10px rgb(49, 49, 49) , 0 0 15px rgb(94, 94, 94);
+    cursor: pointer;
+    position: initial;
+}
+
+
+/* ------------------------------------------------------------------------------------------ */
+
+.main-mid{
+    width: 100%;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(12, 161, 129);
+}
+
+.text-about{
+    display: flex;
+    justify-content: center;
+
+    width: 50%;
+    color: white;
+
+    column-gap: 5%;
+}
+
+.left-tx-about , .right-tx-about{
+    font-family: EduSA
+}
+
+.down-but{
+    width: 20%;
+    height: 55px;
+
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+
+    color: white;
+    font-size: 17px;
+
+    transition: color 200ms;
+}
+
+.down-but:hover{
+    cursor: pointer;
+    background-color: white;
+    color: rgb(12, 161, 129);
+}
+
+
+/* ------------------------------------------------------------------------------------------ */
+
+.main-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 650px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 55%;
+
+    gap: 10px;
+}   
+
+.text-in{
+    height: 50px;
+}
+
+.inputs{
+    width: 100%;
+    border: none;
+    border-bottom: 1.5px solid lightgray;
+    outline: 0;
+}
+
+textarea{
+    resize: none;
+    height: 150px;
+}
+
+.but-send{
+    width: 15%;
+    height: 50px;
+    margin-top: 10px;
+    margin-right: 83%;
+
+    color: white;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(12, 161, 129);
+
+    
+}
+
+
+/* --------------------------------------------------------------------------------------- */
+
+.footer-top{
+    margin: 0;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(7, 64, 90);
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-top-in{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-top-left , .footer-top-mid , .footer-top-right{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    text-align: center;
+    width: 32%;
+}
+
+.footer-top-right p , .footer-top-left p{
+    font-family: EduSA
+}
+
+.icon-social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    column-gap: 10px;
+}
+
+.icon-round{
+    width: 40px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 45px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: 200ms;
+}
+
+.icon-round:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.header-text-footer{
+    font-size: 20px;
+    font-family: Montserrat;
+}
+
+.footer-dwon{
+    margin: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(4, 38, 54);
+    color: white;
+}
+
+
+/* -------------------------------------------------------------------------------------------- */
+
+
+@font-face{
+    font-family: 'BebasNeue';
+    src: url(Font/BebasNeue-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'EduSA';
+    src: url(Font/EduSABeginner-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'Montserrat';
+    src: url(Font/Montserrat-Regular.ttf);
+}
